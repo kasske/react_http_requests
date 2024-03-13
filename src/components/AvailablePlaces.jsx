@@ -27,18 +27,6 @@ export default function AvailablePlaces({ onSelectPlace }) {
     fetchedData: availablePlaces,
   } = useFetch(fetchSortedPlaces, []);
 
-  /* if no error manipulate data and set places*/
-  // navigator.geolocation.getCurrentPosition((position) => {
-  //   const sortedPlaces = sortPlacesByDistance(
-  //     places,
-  //     position.coords.latitude,
-  //     position.coords.longitude
-  //   );
-
-  //   setAvailablePlacces(sortedPlaces);
-  //   setIsFetching(false);
-  // });
-
   if (error) {
     return (
       <Error
