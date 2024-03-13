@@ -7,6 +7,7 @@ Used vite to create the app
 
 - Get, put and delete places from local api
 - Backend (simple) done in node js
+- Custom hooks
 
 
 ## Project Setup
